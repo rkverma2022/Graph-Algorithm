@@ -22,3 +22,6 @@ Graph Algorithm
 
          visit the 0 - level, --> 1 - level --> 2 - level ...
 2. DFS
+3.
+4. <img>https://github.com/rkverma2022/Graph-Algorithm/assets/112231455/219574ee-9678-4391-83e7-ebf3d3f9d757 </img>
+
