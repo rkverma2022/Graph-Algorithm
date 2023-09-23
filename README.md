@@ -29,4 +29,6 @@ Graph Algorithm
 
          5A. BFS
          5B. DFS
+6. Min Distance in given grid
 
+         https://practice.geeksforgeeks.org/problems/distance-of-nearest-cell-having-1-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=distance-of-nearest-cell-having-1 
