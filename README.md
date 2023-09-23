@@ -40,3 +40,7 @@ Graph Algorithm
 8. Cycle in Directed Graph
 
          https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=detect-cycle-in-a-directed-graph
+
+9. Topological Sort (only work for DAG (Directed Acyclic Graph) )
+
+          https://practice.geeksforgeeks.org/problems/topological-sort/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=topological-sort
