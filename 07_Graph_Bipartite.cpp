@@ -32,18 +32,42 @@ class Solution {
         
         return true;
     }
+    
+    bool isBipartite_DFS(int node, int parent, vector<int>& visited_and_colored, vector<int> adj[]) {
+        visited_and_colored[node] = !visited_and_colored[parent];
+
+        for (auto it : adj[node]) {
+            if (visited_and_colored[it] == -1) {
+                if (!isBipartite_DFS(it, node, visited_and_colored, adj)) {
+                    return false;
+                }
+            } else if (visited_and_colored[it] == visited_and_colored[node]) {
+                return false;
+            }
+        }
+
+        return true;
+    }
 public:
 	bool isBipartite(int V, vector<int>adj[]){
 	    // Code here
 	    vector<int> visited_and_colored(V, -1);     //-1 : node not visited
 	    // color with 0 and 1
 	    
+	    
+	    
 	    for(int i = 0; i<V; i++)
 	    {
 	        if(visited_and_colored[i] == -1)
 	        {
-	            if(!isBipartite_BFS(visited_and_colored, adj, i))
+	           // if(!isBipartite_BFS(visited_and_colored, adj, i))
+	           //     return false;
+	           
+	           visited_and_colored[i] = 0;
+	            if(!isBipartite_DFS(i, i, visited_and_colored, adj))
 	                return false;
+	                
+	                
 	            
 	        }
 	    }
