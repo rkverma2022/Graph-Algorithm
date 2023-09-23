@@ -25,3 +25,8 @@ Graph Algorithm
 3.
 4. <img>https://github.com/rkverma2022/Graph-Algorithm/assets/112231455/219574ee-9678-4391-83e7-ebf3d3f9d757 </img>
 
+5. cycle detection
+
+         5A. BFS
+         5B. DFS
+
