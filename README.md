@@ -54,3 +54,10 @@ Graph Algorithm
               step 3.1 take the front node from queue and push into ans
                   step 3.2 go through all the child of node and decrease their indegree
                       step 3.3 push the child node into queue when indegree = 0
+
+11. Minimum Spanning Tree || Prim's Algo
+
+
+	    step 1: min_heap_queue priority_queue (wt, node, parent), put any vertex with parent -1
+	    step 2: run bfs until, take the top of queue and if it isn't vis then vis it and UPDATE the MST sum
+	    step 3: loop for the adjnode
