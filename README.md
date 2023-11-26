@@ -47,10 +47,10 @@ Graph Algorithm
 
 10. Kahn Topological Sort (BFS)
 
-    
-     step 1. find the indegree of each vertex put in a list
-     step 2. put the nodes into a queue whose indegree = 0
-     step 3. do bfs untill the queue get empty
-        step 3.1 take the front node from queue and push into ans
-            step 3.2 go through all the child of node and decrease their indegree
-                step 3.3 push the child node into queue when indegree = 0
+
+           step 1. find the indegree of each vertex put in a list
+           step 2. put the nodes into a queue whose indegree = 0
+           step 3. do bfs untill the queue get empty
+              step 3.1 take the front node from queue and push into ans
+                  step 3.2 go through all the child of node and decrease their indegree
+                      step 3.3 push the child node into queue when indegree = 0
